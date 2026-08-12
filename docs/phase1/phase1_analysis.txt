@@ -1,0 +1,125 @@
+# Phase 1: Requirement Analysis & Planning
+
+## Project Overview
+
+The Software Installation Request Automation project aims to automate the process of requesting, approving, and fulfilling licensed software installations using ServiceNow. Instead of relying on manual emails and communication, employees can submit requests through the Service Catalog, where approvals, validations, and fulfillment are handled through automated workflows.
+
+---
+
+## Business Objectives
+
+- Automate the software installation request process.
+- Reduce manual effort and approval delays.
+- Validate software license availability before approval.
+- Standardize software request management.
+- Improve visibility and request tracking.
+- Generate fulfillment tasks automatically for the IT support team.
+- Maintain audit logs and notifications throughout the request lifecycle.
+
+---
+
+## Functional Scope
+
+The application will include the following features:
+
+- Service Catalog item for licensed software installation.
+- Request form for software details and business justification.
+- License availability validation.
+- Multi-level approval workflow.
+- Automatic fulfillment task creation.
+- Request status tracking.
+- Email notifications for approvals and completion.
+- Audit trail for all request activities.
+
+---
+
+## Stakeholders
+
+| Stakeholder | Responsibility |
+|--------------|----------------|
+| Employee | Submits software installation requests |
+| Manager | Reviews and approves employee requests |
+| Software Owner | Verifies licensing eligibility and approves requests |
+| IT Support Team | Installs the requested software and updates task status |
+| ServiceNow Administrator | Configures and maintains the application |
+
+---
+
+## High-Level Workflow
+
+```
+Employee
+    ↓
+Service Catalog
+    ↓
+Licensed Software Request
+    ↓
+License Validation
+    ↓
+Manager Approval
+    ↓
+Software Owner Approval
+    ↓
+Fulfillment Task Creation
+    ↓
+Software Installation
+    ↓
+Request Completion
+    ↓
+Employee Notification
+```
+
+---
+
+## Execution Roadmap
+
+### Phase 1 – Requirement Analysis & Planning
+- Understand project requirements.
+- Identify stakeholders.
+- Define functional scope.
+- Design the execution roadmap.
+
+### Phase 2 – Backend Development & Configuration
+- Create the ServiceNow application.
+- Configure custom tables.
+- Build the Service Catalog item.
+- Configure request variables.
+- Develop approval workflows.
+
+### Phase 3 – UI/UX Development & Customization
+- Implement Client Scripts.
+- Configure UI Policies.
+- Customize forms and layouts.
+- Improve user experience.
+
+### Phase 4 – Testing & Security
+- Configure ACLs and roles.
+- Validate workflows.
+- Perform functional testing.
+- Fix identified issues.
+
+### Phase 5 – Deployment & Documentation
+- Final testing.
+- Export Update Sets.
+- Document the implementation.
+- Prepare project demonstration.
+- Publish the GitHub repository.
+
+---
+
+## Technologies
+
+- ServiceNow
+- Service Catalog
+- Flow Designer
+- Business Rules
+- Client Scripts
+- UI Policies
+- Notifications
+- Update Sets
+
+---
+
+## Expected Outcome
+
+Upon completion, the application will provide an automated and standardized software installation request process, reducing manual intervention, improving approval efficiency, ensuring license compliance, and enhancing the overall user experience.
